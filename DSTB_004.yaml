@@ -1,4 +1,17 @@
 proxies:
+- name: danu04_LiveCtn
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: f9cf63ae-939e-43b3-92cd-2caaed884713
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
 - name: danu01_LiveONContabo
   type: trojan
   server: beacon.liveon.id

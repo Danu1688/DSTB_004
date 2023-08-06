@@ -1,4 +1,43 @@
 proxies:
+- name: DanuBiznet03_Live04_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 393b9767-3d98-47ba-9440-7fde01f179dd
+  udp: true
+  sni: biznet2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: biznet2.myserver-prem.cloud
+- name: DanuBiznet03_Live04_2
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: 393b9767-3d98-47ba-9440-7fde01f179dd
+  udp: true
+  sni: biznet2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: biznet2.myserver-prem.cloud
+- name: DanuBiznet03_Live04_3
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 393b9767-3d98-47ba-9440-7fde01f179dd
+  udp: true
+  sni: biznet2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: biznet2.myserver-prem.cloud
 - name: danu03_LiveDO04a
   type: trojan
   server: 104.21.8.121

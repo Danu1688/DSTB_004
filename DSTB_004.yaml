@@ -1,44 +1,5 @@
 proxies:
-- name: DanuIKD01_Live04_1
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 60d0d325-2565-4147-8402-7a412c87a7bb
-  udp: true
-  sni: ikd-stb1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: ikd-stb1.myserver-prem.cloud
-- name: DanuIKD01_Live04_2
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: 60d0d325-2565-4147-8402-7a412c87a7bb
-  udp: true
-  sni: ikd-stb1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: ikd-stb1.myserver-prem.cloud
-- name: DanuIKD01_Live04_3
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 60d0d325-2565-4147-8402-7a412c87a7bb
-  udp: true
-  sni: ikd-stb1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: ikd-stb1.myserver-prem.cloud
-- name: danu03_LiveDO04a
+- name: danu03_LiveDO04_1
   type: trojan
   server: 104.21.8.121
   port: 443
@@ -51,7 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
-- name: danu03_LiveDO04b
+- name: danu03_LiveDO04_2
   type: trojan
   server: 172.67.139.111
   port: 443
@@ -64,7 +25,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
-- name: danu03_LiveDO04c
+- name: danu03_LiveDO04_3
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -77,7 +38,7 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
-- name: DanuBackup_LiveDOa
+- name: DanuBackup_LiveDO_1
   type: trojan
   server: 104.21.8.121
   port: 443
@@ -90,7 +51,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-- name: DanuBackup_LiveDOb
+- name: DanuBackup_LiveDO_2
   type: trojan
   server: 172.67.139.111
   port: 443
@@ -103,7 +64,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-- name: DanuBackup_LiveDOc
+- name: DanuBackup_LiveDO_3
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -116,42 +77,4 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-- name: DanuTelkom03_Live04_1
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 39b0620e-561c-403b-9757-6bd76ec7ea72
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom03_Live04_2
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: 39b0620e-561c-403b-9757-6bd76ec7ea72
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom03_Live04_3
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 39b0620e-561c-403b-9757-6bd76ec7ea72
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
+

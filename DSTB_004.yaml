@@ -1,7 +1,7 @@
 proxies:
 - name: ToniAzuan_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 1cdf485c-1744-4d19-95de-b5f557e554a0
   udp: true

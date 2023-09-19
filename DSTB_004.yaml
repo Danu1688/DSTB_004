@@ -1,4 +1,17 @@
 proxies:
+- name: ToniSvrNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 2f870c06-85da-4fd2-b138-960d233588cc
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: ToniAzuan_LiveDO_1
   type: trojan
   server: circles.asia
